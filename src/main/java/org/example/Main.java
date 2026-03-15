@@ -2,8 +2,6 @@ package org.example;
 
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, QA!");
@@ -24,8 +22,8 @@ public class Main {
     public static int sum(int a, int b){
         return a+b;
     }
-
+    static Scanner sc = new Scanner(System.in);
     public static int scInt(){
-        return new Scanner(System.in).nextInt();
+        return sc.nextInt();
     }
 }
